@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useState } from "react";
-import {nav} from "./components/nav";
+
+import Nav from "./components/nav";
 const idb =
   window.indexedDB ||
   window.mozIndexedDB ||
@@ -48,7 +48,7 @@ function App() {
   return (
   <>
 
-<nav/>
+     <Nav/>
 
   </>
   );
